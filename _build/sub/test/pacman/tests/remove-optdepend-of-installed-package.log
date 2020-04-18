@@ -1,0 +1,12 @@
+1..1
+# Running 'remove-optdepend-of-installed-package'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=dep
+#    ok 3 - PKG_EXIST=pkg
+#    ok 4 - PACMAN_OUTPUT=pkg optionally requires dep
+ok 1 - Remove packages which is an optdepend of another package
+PASS: test/pacman/tests/remove-optdepend-of-installed-package.py 1 - Remove packages which is an optdepend of another package

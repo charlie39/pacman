@@ -1,0 +1,12 @@
+1..1
+# Running 'smoke001'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg050
+#    ok 3 - PKG_EXIST=pkg674
+#    ok 4 - PKG_EXIST=pkg999
+ok 1 - Install a thousand packages in a single transaction
+PASS: test/pacman/tests/smoke001.py 1 - Install a thousand packages in a single transaction

@@ -1,0 +1,14 @@
+1..1
+# Running 'upgrade043'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=bash|1.0-2
+#    ok 3 - PKG_VERSION=filesystem|1.0-2
+#    ok 4 - !FILE_PACSAVE=etc/profile
+#    ok 5 - FILE_PACNEW=etc/profile
+#    ok 6 - FILE_EXIST=etc/profile
+ok 1 - Backup file relocation (reverse order)
+PASS: test/pacman/tests/upgrade043.py 1 - Backup file relocation (reverse order)

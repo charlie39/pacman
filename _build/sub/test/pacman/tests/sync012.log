@@ -1,0 +1,14 @@
+1..1
+# Running 'sync012'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg1
+#    ok 3 - PKG_EXIST=pkg2
+#    ok 4 - PKG_EXIST=pkg3
+#    ok 5 - PACMAN_OUTPUT=dependency cycle detected
+#    ok 6 - PACMAN_OUTPUT=pkg3 will be installed before its pkg1 dependency
+ok 1 - Install packages from a sync db with circular dependencies
+PASS: test/pacman/tests/sync012.py 1 - Install packages from a sync db with circular dependencies

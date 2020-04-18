@@ -1,0 +1,14 @@
+1..1
+# Running 'upgrade100'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=fcitx-gtk2|1.0-2
+#    ok 3 - PKG_VERSION=harfbuzz|1.0-2
+#    ok 4 - PKG_VERSION=icu|1.0-2
+#    ok 5 - FILE_EXIST=found_harfbuzz
+#    ok 6 - FILE_EXIST=found_icu
+ok 1 - Indirect dependency ordering (FS#32764)
+PASS: test/pacman/tests/upgrade100.py 1 - Indirect dependency ordering (FS#32764)

@@ -1,0 +1,12 @@
+1..1
+# Running 'dbonly-extracted-files'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=foobar
+#    ok 3 - FILE_EXIST=var/lib/pacman/local/foobar-1-1/install
+#    ok 4 - !FILE_EXIST=bin/foobar
+ok 1 - Install a package with dbonly
+PASS: test/pacman/tests/dbonly-extracted-files.py 1 - Install a package with dbonly

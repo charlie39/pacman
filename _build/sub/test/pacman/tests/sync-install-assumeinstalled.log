@@ -1,0 +1,10 @@
+1..1
+# Running 'sync-install-assumeinstalled'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg2
+ok 1 - Install a package using --assume-installed
+PASS: test/pacman/tests/sync-install-assumeinstalled.py 1 - Install a package using --assume-installed

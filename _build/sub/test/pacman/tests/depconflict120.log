@@ -1,0 +1,12 @@
+1..1
+# Running 'depconflict120'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg1
+#    ok 3 - PKG_EXIST=pkg2
+#    ok 4 - PKG_VERSION=pkg2|1.0-2
+ok 1 - target vs db conflict will disappear after upgrade
+PASS: test/pacman/tests/depconflict120.py 1 - target vs db conflict will disappear after upgrade

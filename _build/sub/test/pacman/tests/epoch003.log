@@ -1,0 +1,10 @@
+1..1
+# Running 'epoch003'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=dummy|2:1.4-1
+ok 1 - Sysupgrade with an epoch package overriding a force package
+PASS: test/pacman/tests/epoch003.py 1 - Sysupgrade with an epoch package overriding a force package

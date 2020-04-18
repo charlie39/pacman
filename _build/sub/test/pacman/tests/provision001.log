@@ -1,0 +1,10 @@
+1..1
+# Running 'provision001'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg1
+ok 1 - -S provision
+PASS: test/pacman/tests/provision001.py 1 - -S provision

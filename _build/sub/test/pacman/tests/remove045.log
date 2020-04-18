@@ -1,0 +1,13 @@
+1..1
+# Running 'remove045'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..5
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=pkg1
+#    ok 3 - !PKG_EXIST=pkg2
+#    ok 4 - !PKG_EXIST=pkg3
+#    ok 5 - !PKG_EXIST=pkg4
+ok 1 - -Rs advanced test
+PASS: test/pacman/tests/remove045.py 1 - -Rs advanced test

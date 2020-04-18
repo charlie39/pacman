@@ -1,0 +1,12 @@
+1..1
+# Running 'sync110'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=pkg1|1.0-2
+#    ok 3 - PKG_REASON=pkg2|1
+#    ok 4 - PKG_REASON=pkg3|1
+ok 1 - Sysupgrade of a package pulling new dependencies
+PASS: test/pacman/tests/sync110.py 1 - Sysupgrade of a package pulling new dependencies

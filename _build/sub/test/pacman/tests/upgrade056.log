@@ -1,0 +1,12 @@
+1..1
+# Running 'upgrade056'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg1
+#    ok 3 - PKG_VERSION=pkg2|1.0-2
+#    ok 4 - PKG_EXIST=pkg3
+ok 1 - Upgrade a package that removes a provide but another package still provides it
+PASS: test/pacman/tests/upgrade056.py 1 - Upgrade a package that removes a provide but another package still provides it

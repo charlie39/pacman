@@ -1,0 +1,16 @@
+1..1
+# Running 'sync407'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..8
+#    ok 1 - PACMAN_RETCODE=1
+#    ok 2 - PKG_EXIST=cairo-lcd
+#    ok 3 - PKG_VERSION=cairo-lcd|1.4.6-1
+#    ok 4 - !PKG_EXIST=cairo
+#    ok 5 - !PKG_EXIST=compiz-git
+#    ok 6 - !PKG_EXIST=ccsm-git
+#    ok 7 - !PKG_EXIST=pygtk
+#    ok 8 - !PKG_EXIST=pycairo
+ok 1 - FS#7524, versioned dependency resolving with conflict
+PASS: test/pacman/tests/sync407.py 1 - FS#7524, versioned dependency resolving with conflict

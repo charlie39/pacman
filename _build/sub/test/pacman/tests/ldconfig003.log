@@ -1,0 +1,10 @@
+1..1
+# Running 'ldconfig003'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - FILE_EXIST=etc/ld.so.cache
+ok 1 - Make sure ldconfig runs on a sync operation
+PASS: test/pacman/tests/ldconfig003.py 1 - Make sure ldconfig runs on a sync operation

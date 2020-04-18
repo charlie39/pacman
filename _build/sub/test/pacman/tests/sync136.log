@@ -1,0 +1,10 @@
+1..1
+# Running 'sync136'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=dummy|1:1.0-1
+ok 1 - Sysupgrade with a sync package forcing a downgrade
+PASS: test/pacman/tests/sync136.py 1 - Sysupgrade with a sync package forcing a downgrade

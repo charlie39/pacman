@@ -1,0 +1,10 @@
+1..1
+# Running 'sync100'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=dummy|1.0-2
+ok 1 - Sysupgrade with a newer sync package
+PASS: test/pacman/tests/sync100.py 1 - Sysupgrade with a newer sync package

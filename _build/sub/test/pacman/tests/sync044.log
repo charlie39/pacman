@@ -1,0 +1,13 @@
+1..1
+# Running 'sync044'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..5
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=pkg1
+#    ok 3 - PKG_EXIST=pkg2
+#    ok 4 - PKG_EXIST=pkg3
+#    ok 5 - PKG_REASON=pkg3|1
+ok 1 - A dependency induces a replacement
+PASS: test/pacman/tests/sync044.py 1 - A dependency induces a replacement

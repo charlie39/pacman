@@ -1,0 +1,166 @@
+=========================================
+   pacman 5.2.1: ./test/test-suite.log
+=========================================
+
+# TOTAL: 488
+# PASS:  480
+# SKIP:  1
+# XFAIL: 6
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+SKIP: test/scripts/makepkg-template_test.sh
+===========================================
+
+cp: cannot stat '../../test/scripts/makepkg-template-tests': No such file or directory
+find: ‘./makepkg-template-tests’: No such file or directory
+1..0
+SKIP: test/scripts/makepkg-template_test.sh
+# All 0 tests successfully run.
+
+PASS: test/pacman/tests/deprange001
+===================================
+
+1..1
+# Running 'deprange001'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    not ok 1 - PACMAN_RETCODE=1
+#    not ok 2 - !PKG_EXIST=pkg3
+not ok 1 - dependency ranges should be satisfied by the same package # TODO
+XFAIL: test/pacman/tests/deprange001.py 1 - dependency ranges should be satisfied by the same package # TODO
+
+PASS: test/pacman/tests/replace110
+==================================
+
+1..1
+# Running 'replace110'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..7
+#    ok 1 - !PKG_EXIST=dummy
+#    ok 2 - PKG_EXIST=replacement
+#    ok 3 - FILE_EXIST=etc/dummy.conf
+#    not ok 4 - !FILE_MODIFIED=etc/dummy.conf
+#    ok 5 - !FILE_PACNEW=etc/dummy.conf
+#    not ok 6 - !FILE_PACSAVE=etc/dummy.conf
+#    ok 7 - FILE_EXIST=bin/dummy
+not ok 1 - Replace a package with a file in 'backup' (local modified) # TODO
+XFAIL: test/pacman/tests/replace110.py 1 - Replace a package with a file in 'backup' (local modified) # TODO
+
+PASS: test/pacman/tests/sync-update-package-removing-required-provides
+======================================================================
+
+1..1
+# Running 'sync-update-package-removing-required-provides'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..3
+#    not ok 1 - PACMAN_RETCODE=0
+#    not ok 2 - PKG_VERSION=feature|2-1
+#    not ok 3 - PKG_VERSION=pkg1|2-1
+not ok 1 - Upgrade a package that loose a provides entry which moves to a dedicated package # TODO
+XFAIL: test/pacman/tests/sync-update-package-removing-required-provides.py 1 - Upgrade a package that loose a provides entry which moves to a dedicated package # TODO
+
+PASS: test/pacman/tests/sync403
+===============================
+
+1..1
+# Running 'sync403'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    not ok 1 - PACMAN_RETCODE=0
+#    not ok 2 - PKG_EXIST=pkg1
+#    ok 3 - !PKG_EXIST=pkg2
+#    not ok 4 - PKG_EXIST=pkg3
+not ok 1 - Choice between two providers (2) # TODO
+XFAIL: test/pacman/tests/sync403.py 1 - Choice between two providers (2) # TODO
+
+PASS: test/pacman/tests/sync406
+===============================
+
+1..1
+# Running 'sync406'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    not ok 1 - PACMAN_RETCODE=0
+#    not ok 2 - PKG_EXIST=kdelibs
+#    ok 3 - PKG_EXIST=qt
+#    not ok 4 - PKG_EXIST=phonon
+#    not ok 5 - PKG_EXIST=kdeapp
+#    not ok 6 - PKG_VERSION=qt|4.6.1-1
+not ok 1 - phonon/qt issue (2) # TODO
+XFAIL: test/pacman/tests/sync406.py 1 - phonon/qt issue (2) # TODO
+
+FAIL: test/pacman/tests/sync600
+===============================
+
+1..1
+# Running 'sync600'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..26
+#    not ok 1 - PACMAN_RETCODE=0
+#    not ok 2 - PKG_VERSION=spaces|1.1-1
+#    not ok 3 - PKG_VERSION=unicodechars|2.0-1
+#    ok 4 - FILE_EXIST=usr/bin/endwithspace
+#    ok 5 - FILE_EXIST=usr/bin/newendwithspace
+#    ok 6 - FILE_EXIST=usr/bin/disappear
+#    ok 7 - FILE_EXIST=spaces/name
+#    ok 8 - FILE_EXIST=spaces/name2
+#    ok 9 - FILE_EXIST=usr/bin/endwithspace 
+#    ok 10 - FILE_EXIST= spaces/name
+#    not ok 11 - FILE_EXIST= spaces/name2
+#    not ok 12 - !FILE_EXIST=usr/bin/disappear 
+#    not ok 13 - !FILE_EXIST=usr/share/Märchen
+#    not ok 14 - !FILE_EXIST=usr/share/ƏƐƕƺ
+#    not ok 15 - !FILE_EXIST=usr/share/предупреждение
+#    not ok 16 - !FILE_EXIST=usr/share/סֶאבױ
+#    not ok 17 - !FILE_EXIST=usr/share/←↯↻⇈
+#    not ok 18 - !FILE_EXIST=usr/share/アヅヨヾ
+#    not ok 19 - !FILE_EXIST=usr/share/错误
+#    not ok 20 - FILE_EXIST=usr/man/Märchen
+#    not ok 21 - FILE_EXIST=usr/man/ƏƐƕƺ
+#    not ok 22 - FILE_EXIST=usr/man/предупреждение
+#    not ok 23 - FILE_EXIST=usr/man/סֶאבױ
+#    not ok 24 - FILE_EXIST=usr/man/←↯↻⇈
+#    not ok 25 - FILE_EXIST=usr/man/アヅヨヾ
+#    not ok 26 - FILE_EXIST=usr/man/错误
+not ok 1 - Sync packages with evil filenames
+FAIL: test/pacman/tests/sync600.py 1 - Sync packages with evil filenames
+
+PASS: test/pacman/tests/upgrade078
+==================================
+
+1..1
+# Running 'upgrade078'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..11
+#    not ok 1 - PACMAN_RETCODE=0
+#    not ok 2 - PKG_DEPENDS=git|curl
+#    not ok 3 - PKG_DEPENDS=git|expat
+#    not ok 4 - PKG_DEPENDS=git|perl
+#    ok 5 - PKG_DEPENDS=perl|glibc
+#    not ok 6 - PKG_EXIST=git
+#    not ok 7 - PKG_VERSION=git|1.7.6-1
+#    not ok 8 - PKG_VERSION=curl|7.21.7-1
+#    not ok 9 - PKG_VERSION=glibc|2.1.4-4
+#    ok 10 - PKG_VERSION=perl|5.14.1-3
+#    ok 11 - PKG_VERSION=expat|2.0.1-6
+not ok 1 - -U --recursive upgrades outdated dependencies # TODO
+XFAIL: test/pacman/tests/upgrade078.py 1 - -U --recursive upgrades outdated dependencies # TODO
+

@@ -1,0 +1,10 @@
+1..1
+# Running 'hook-file-upgrade-nomatch'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !FILE_EXIST=hook-output
+ok 1 - Add and remove separate files that match an upgrade hook
+PASS: test/pacman/tests/hook-file-upgrade-nomatch.py 1 - Add and remove separate files that match an upgrade hook

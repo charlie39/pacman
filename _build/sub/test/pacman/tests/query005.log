@@ -1,0 +1,12 @@
+1..1
+# Running 'query005'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PACMAN_OUTPUT=^Name.*foobar
+#    ok 3 - PACMAN_OUTPUT=^Description.*test description
+#    ok 4 - PACMAN_OUTPUT=^Build Date.* 2007
+ok 1 - Query info on a package (new date)
+PASS: test/pacman/tests/query005.py 1 - Query info on a package (new date)

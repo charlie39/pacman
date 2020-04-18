@@ -1,0 +1,12 @@
+1..1
+# Running 'provision004'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=provision
+#    ok 3 - PKG_EXIST=literal
+#    ok 4 - PKG_VERSION=literal|1.0-2
+ok 1 - -S literal with provision of same name installed
+PASS: test/pacman/tests/provision004.py 1 - -S literal with provision of same name installed

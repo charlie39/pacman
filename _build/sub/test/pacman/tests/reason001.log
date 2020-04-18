@@ -1,0 +1,12 @@
+1..1
+# Running 'reason001'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=libfoo
+#    ok 3 - PKG_EXIST=libfoo-ng
+#    ok 4 - PKG_REASON=libfoo-ng|1
+ok 1 - Copy reason (to-be-replaced -> replacement)
+PASS: test/pacman/tests/reason001.py 1 - Copy reason (to-be-replaced -> replacement)

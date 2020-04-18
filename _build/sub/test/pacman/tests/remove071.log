@@ -1,0 +1,22 @@
+1..1
+# Running 'remove071'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..14
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=spaces
+#    ok 3 - !PKG_EXIST=unicodechars
+#    ok 4 - !FILE_EXIST=usr/bin/endwithspace 
+#    ok 5 - FILE_EXIST=usr/bin/endwithspace
+#    ok 6 - !FILE_EXIST= spaces/name
+#    ok 7 - FILE_EXIST=spaces/name
+#    ok 8 - !FILE_EXIST=usr/share/Märchen
+#    ok 9 - !FILE_EXIST=usr/share/ƏƐƕƺ
+#    ok 10 - !FILE_EXIST=usr/share/предупреждение
+#    ok 11 - !FILE_EXIST=usr/share/סֶאבױ
+#    ok 12 - !FILE_EXIST=usr/share/←↯↻⇈
+#    ok 13 - !FILE_EXIST=usr/share/アヅヨヾ
+#    ok 14 - !FILE_EXIST=usr/share/错误
+ok 1 - Remove packages with evil filenames
+PASS: test/pacman/tests/remove071.py 1 - Remove packages with evil filenames

@@ -1,0 +1,10 @@
+1..1
+# Running 'epoch010'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=usbutils|1:001-1
+ok 1 - usbutils case study: force in new package
+PASS: test/pacman/tests/epoch010.py 1 - usbutils case study: force in new package

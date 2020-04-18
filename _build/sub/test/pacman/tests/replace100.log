@@ -1,0 +1,14 @@
+1..1
+# Running 'replace100'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=util-linux-ng
+#    ok 3 - PKG_VERSION=util-linux|2.19-1
+#    ok 4 - PKG_VERSION=kernel26|2.6.37.1-1
+#    ok 5 - FILE_EXIST=sbin/blkid
+#    ok 6 - FILE_EXIST=foundit
+ok 1 - Sysupgrade with a replace and dependency chain
+PASS: test/pacman/tests/replace100.py 1 - Sysupgrade with a replace and dependency chain

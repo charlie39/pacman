@@ -1,0 +1,17 @@
+1..1
+# Running 'pacman-db-upgrade-v9'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..9
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - FILE_EXIST=var/lib/pacman/local/ALPM_DB_VERSION
+#    ok 3 - PKG_BACKUP=filesystem|mnt_real/subdir/foo
+#    ok 4 - PKG_FILES=filesystem|mnt_real/
+#    ok 5 - PKG_FILES=filesystem|mnt_real/subdir/
+#    ok 6 - PKG_FILES=filesystem|mnt_real/subdir/foo
+#    ok 7 - PKG_FILES=filesystem|baz
+#    ok 8 - !PKG_FILES=filesystem|mnt/
+#    ok 9 - !PKG_FILES=filesystem|bar/
+ok 1 - pacman-db-upgrade DB version 9 (symlink support removal)
+PASS: test/scripts/pacman-db-upgrade-v9.py 1 - pacman-db-upgrade DB version 9 (symlink support removal)

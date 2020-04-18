@@ -1,0 +1,16 @@
+1..1
+# Running 'smoke003'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..8
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg000name
+#    ok 3 - PKG_EXIST=pkg050name
+#    ok 4 - PKG_EXIST=pkg099name
+#    ok 5 - !PKG_EXIST=pkg100name
+#    ok 6 - !PKG_EXIST=pkg383name
+#    ok 7 - !PKG_EXIST=pkg674name
+#    ok 8 - !PKG_EXIST=pkg999name
+ok 1 - Remove a thousand packages in a single transaction
+PASS: test/pacman/tests/smoke003.py 1 - Remove a thousand packages in a single transaction

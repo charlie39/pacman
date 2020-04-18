@@ -1,0 +1,13 @@
+1..1
+# Running 'deptest001'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..5
+#    ok 1 - PACMAN_RETCODE=127
+#    ok 2 - !PACMAN_OUTPUT=^pkg1
+#    ok 3 - PACMAN_OUTPUT=^pkg2
+#    ok 4 - PACMAN_OUTPUT=^pkg3
+#    ok 5 - !PACMAN_OUTPUT=^prov
+ok 1 - test deptest (-T) functionality
+PASS: test/pacman/tests/deptest001.py 1 - test deptest (-T) functionality

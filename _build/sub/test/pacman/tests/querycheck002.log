@@ -1,0 +1,10 @@
+1..1
+# Running 'querycheck002'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PACMAN_OUTPUT=dummy: no mtree file
+ok 1 - Query--check mtree, no mtree
+PASS: test/pacman/tests/querycheck002.py 1 - Query--check mtree, no mtree

@@ -1,0 +1,12 @@
+1..1
+# Running 'replace102'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=python-yaml
+#    ok 3 - PKG_VERSION=python2-yaml|5-1
+#    ok 4 - FILE_EXIST=lib/python2/file
+ok 1 - Sysupgrade with a versioned replacement, original stays
+PASS: test/pacman/tests/replace102.py 1 - Sysupgrade with a versioned replacement, original stays

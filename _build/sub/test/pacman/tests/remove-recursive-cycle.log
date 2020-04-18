@@ -1,0 +1,15 @@
+1..1
+# Running 'remove-recursive-cycle'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..7
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg2
+#    ok 3 - PKG_EXIST=dep3
+#    ok 4 - PKG_EXIST=dep4
+#    ok 5 - !PKG_EXIST=pkg1
+#    ok 6 - !PKG_EXIST=dep1
+#    ok 7 - !PKG_EXIST=dep2
+ok 1 - Recursively remove a package with cyclical dependencies
+PASS: test/pacman/tests/remove-recursive-cycle.py 1 - Recursively remove a package with cyclical dependencies

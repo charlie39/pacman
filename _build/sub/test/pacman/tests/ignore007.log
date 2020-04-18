@@ -1,0 +1,12 @@
+1..1
+# Running 'ignore007'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=package1
+#    ok 3 - PKG_EXIST=package2
+#    ok 4 - PKG_EXIST=package3
+ok 1 - Sync group with ignored packages
+PASS: test/pacman/tests/ignore007.py 1 - Sync group with ignored packages

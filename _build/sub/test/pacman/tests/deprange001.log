@@ -1,0 +1,10 @@
+1..1
+# Running 'deprange001'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    not ok 1 - PACMAN_RETCODE=1
+#    not ok 2 - !PKG_EXIST=pkg3
+not ok 1 - dependency ranges should be satisfied by the same package # TODO
+XFAIL: test/pacman/tests/deprange001.py 1 - dependency ranges should be satisfied by the same package # TODO

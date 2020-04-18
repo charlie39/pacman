@@ -1,0 +1,14 @@
+1..1
+# Running 'symlink001'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=1
+#    ok 2 - !PKG_EXIST=pkg1
+#    ok 3 - !FILE_EXIST=dir/symdir/tmp
+#    ok 4 - !FILE_EXIST=dir/realdir/tmp
+#    ok 5 - FILE_TYPE=dir/symdir|link
+#    ok 6 - FILE_TYPE=dir/realdir|dir
+ok 1 - Dir symlinks overwritten on install (the perl/git bug)
+PASS: test/pacman/tests/symlink001.py 1 - Dir symlinks overwritten on install (the perl/git bug)

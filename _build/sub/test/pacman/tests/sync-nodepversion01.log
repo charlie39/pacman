@@ -1,0 +1,12 @@
+1..1
+# Running 'sync-nodepversion01'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg1
+#    ok 3 - PKG_EXIST=pkg2
+#    ok 4 - PKG_DEPENDS=pkg1|provision>1.0-1
+ok 1 - nodepversion: -Sd works
+PASS: test/pacman/tests/sync-nodepversion01.py 1 - nodepversion: -Sd works

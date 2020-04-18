@@ -1,0 +1,12 @@
+1..1
+# Running 'upgrade052'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=1
+#    ok 2 - PKG_EXIST=pkg1
+#    ok 3 - PKG_VERSION=pkg2|1.0-1
+#    ok 4 - PKG_PROVIDES=pkg2|imaginary
+ok 1 - Upgrade to a package that provides less than before
+PASS: test/pacman/tests/upgrade052.py 1 - Upgrade to a package that provides less than before

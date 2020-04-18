@@ -1,0 +1,13 @@
+1..1
+# Running 'file-conflict-with-installed-pkg'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..5
+#    ok 1 - !PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=foobar
+#    ok 3 - !PKG_EXIST=pkg1
+#    ok 4 - FILE_EXIST=conflicting-file
+#    ok 5 - PACMAN_OUTPUT=foobar
+ok 1 - File conflict with an installed package
+PASS: test/pacman/tests/file-conflict-with-installed-pkg.py 1 - File conflict with an installed package

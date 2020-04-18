@@ -1,0 +1,9 @@
+1..1
+# Running 'config002'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..1
+#    ok 1 - PACMAN_RETCODE=0
+ok 1 - Quick check for Include being parsed in [db]
+PASS: test/pacman/tests/config002.py 1 - Quick check for Include being parsed in [db]

@@ -1,0 +1,10 @@
+1..1
+# Running 'sign002'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=1
+#    ok 2 - !PKG_EXIST=pkg1
+ok 1 - Verify a signature in a sync DB (failure)
+PASS: test/pacman/tests/sign002.py 1 - Verify a signature in a sync DB (failure)

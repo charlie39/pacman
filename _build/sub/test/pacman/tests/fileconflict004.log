@@ -1,0 +1,12 @@
+1..1
+# Running 'fileconflict004'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg1
+#    ok 3 - PKG_VERSION=pkg1|2.0-1
+#    ok 4 - FILE_TYPE=test|link
+ok 1 - dir->symlink change during package upgrade (no conflict)
+PASS: test/pacman/tests/fileconflict004.py 1 - dir->symlink change during package upgrade (no conflict)

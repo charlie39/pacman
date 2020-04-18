@@ -1,0 +1,12 @@
+1..1
+# Running 'fileconflict002'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=1
+#    ok 2 - !PKG_EXIST=pkg1
+#    ok 3 - !PKG_EXIST=pkg2
+#    ok 4 - !FILE_EXIST=dir/realdir/file
+ok 1 - Fileconflict with symlinks (2)
+PASS: test/pacman/tests/fileconflict002.py 1 - Fileconflict with symlinks (2)

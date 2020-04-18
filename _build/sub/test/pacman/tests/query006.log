@@ -1,0 +1,14 @@
+1..1
+# Running 'query006'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PACMAN_OUTPUT=^Name.*overflow
+#    ok 3 - PACMAN_OUTPUT=^Description.*Overflow size and date values if possible
+#    ok 4 - PACMAN_OUTPUT=^Installed Size.*9.31 GiB
+#    ok 5 - PACMAN_OUTPUT=^Build Date.* 2065
+#    ok 6 - PACMAN_OUTPUT=^Install Date.* 2286
+ok 1 - Query info on a package (overflow long values)
+PASS: test/pacman/tests/query006.py 1 - Query info on a package (overflow long values)

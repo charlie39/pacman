@@ -1,0 +1,13 @@
+1..1
+# Running 'sync901'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..5
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=foo
+#    ok 3 - !PKG_EXIST=bar
+#    ok 4 - PKG_EXIST=pkg1
+#    ok 5 - PKG_EXIST=pkg2
+ok 1 - Replace a package providing package with actual package
+PASS: test/pacman/tests/sync901.py 1 - Replace a package providing package with actual package

@@ -1,0 +1,10 @@
+1..1
+# Running 'scriptlet-signal-handling'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - FILE_EXIST=interrupt_was_handled
+ok 1 - Handle signal interrupts while running scriptlets/hooks
+PASS: test/pacman/tests/scriptlet-signal-handling.py 1 - Handle signal interrupts while running scriptlets/hooks

@@ -1,0 +1,12 @@
+1..1
+# Running 'remove021'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=dummy
+#    ok 3 - !FILE_EXIST=etc/dummy.conf
+#    ok 4 - !FILE_PACSAVE=etc/dummy.conf
+ok 1 - Remove a package with a modified file marked for backup (--nosave)
+PASS: test/pacman/tests/remove021.py 1 - Remove a package with a modified file marked for backup (--nosave)

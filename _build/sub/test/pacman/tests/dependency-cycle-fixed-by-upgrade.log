@@ -1,0 +1,13 @@
+1..1
+# Running 'dependency-cycle-fixed-by-upgrade'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..5
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=pkg1|1-2
+#    ok 3 - PKG_VERSION=pkg2|1-2
+#    ok 4 - PKG_VERSION=pkg3|1-2
+#    ok 5 - !PACMAN_OUTPUT=dependency cycle detected
+ok 1 - Circular dependency fixed by removed dependency
+PASS: test/pacman/tests/dependency-cycle-fixed-by-upgrade.py 1 - Circular dependency fixed by removed dependency

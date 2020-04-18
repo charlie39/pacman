@@ -1,0 +1,14 @@
+1..1
+# Running 'remove-directory-replaced-with-symlink'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - DIR_EXIST=var/
+#    ok 3 - !LINK_EXIST=srv
+#    ok 4 - !FILE_EXIST=srv
+#    ok 5 - !DIR_EXIST=srv
+#    ok 6 - !PACMAN_OUTPUT=cannot remove
+ok 1 - remove a package with a directory that has been replaced with a symlink
+PASS: test/pacman/tests/remove-directory-replaced-with-symlink.py 1 - remove a package with a directory that has been replaced with a symlink

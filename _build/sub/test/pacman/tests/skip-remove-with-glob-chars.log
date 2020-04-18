@@ -1,0 +1,12 @@
+1..1
+# Running 'skip-remove-with-glob-chars'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PKG_VERSION=foo|1.0-2
+#    ok 2 - PKG_VERSION=bar|1.0-2
+#    ok 3 - FILE_EXIST=foo/b*r
+#    ok 4 - !FILE_EXIST=foo/bar
+ok 1 - transferred file with glob characters that match a removed file
+PASS: test/pacman/tests/skip-remove-with-glob-chars.py 1 - transferred file with glob characters that match a removed file

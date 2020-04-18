@@ -1,0 +1,10 @@
+1..1
+# Running 'hook-description-reused'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PACMAN_OUTPUT=warning.*overwriting previous definition of Description
+ok 1 - Hook using multiple 'Description's
+PASS: test/pacman/tests/hook-description-reused.py 1 - Hook using multiple 'Description's

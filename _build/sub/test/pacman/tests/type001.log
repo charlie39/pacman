@@ -1,0 +1,14 @@
+1..1
+# Running 'type001'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - FILE_TYPE=foo/|dir
+#    ok 3 - FILE_TYPE=foo/file1|file
+#    ok 4 - FILE_TYPE=foo/file2|file
+#    ok 5 - FILE_TYPE=foo/dir|dir
+#    ok 6 - FILE_TYPE=foo/symdir|link
+ok 1 - Check the types of default files in a package
+PASS: test/pacman/tests/type001.py 1 - Check the types of default files in a package

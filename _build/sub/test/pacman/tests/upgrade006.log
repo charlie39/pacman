@@ -1,0 +1,14 @@
+1..1
+# Running 'upgrade006'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=dummy|1.1-1
+#    ok 3 - !FILE_EXIST=usr/share/file_250
+#    ok 4 - !FILE_EXIST=usr/share/file_599
+#    ok 5 - FILE_EXIST=usr/share/file_600
+#    ok 6 - FILE_EXIST=usr/share/file_999
+ok 1 - Upgrade a package with several files
+PASS: test/pacman/tests/upgrade006.py 1 - Upgrade a package with several files

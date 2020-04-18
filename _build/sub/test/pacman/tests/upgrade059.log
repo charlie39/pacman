@@ -1,0 +1,12 @@
+1..1
+# Running 'upgrade059'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=1
+#    ok 2 - PKG_EXIST=pkg1
+#    ok 3 - PKG_VERSION=pkg2|1.0-1
+#    ok 4 - PKG_VERSION=pkg3|1.0-1
+ok 1 - Upgrade packages which would break a multiple-depend
+PASS: test/pacman/tests/upgrade059.py 1 - Upgrade packages which would break a multiple-depend

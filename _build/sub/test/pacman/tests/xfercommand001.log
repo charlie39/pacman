@@ -1,0 +1,18 @@
+1..1
+# Running 'xfercommand001'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..10
+#    ok 1 - PKG_EXIST=pkg_0
+#    ok 2 - PKG_EXIST=pkg_1
+#    ok 3 - PKG_EXIST=pkg_2
+#    ok 4 - PKG_EXIST=pkg_3
+#    ok 5 - PKG_EXIST=pkg_4
+#    ok 6 - PKG_EXIST=pkg_5
+#    ok 7 - PKG_EXIST=pkg_6
+#    ok 8 - PKG_EXIST=pkg_7
+#    ok 9 - PKG_EXIST=pkg_8
+#    ok 10 - PKG_EXIST=pkg_9
+ok 1 - Quick check for using XferCommand
+PASS: test/pacman/tests/xfercommand001.py 1 - Quick check for using XferCommand

@@ -1,0 +1,12 @@
+1..1
+# Running 'epoch004'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=dummy|2:2.0-1
+#    ok 3 - FILE_EXIST=bin/dummynew
+#    ok 4 - !FILE_EXIST=bin/dummyold
+ok 1 - Sysupgrade with same version, different epochs
+PASS: test/pacman/tests/epoch004.py 1 - Sysupgrade with same version, different epochs

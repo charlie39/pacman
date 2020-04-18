@@ -1,0 +1,23 @@
+1..1
+# Running 'symlink002'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..15
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=dummy
+#    ok 3 - !LINK_EXIST=etc/brokenlink
+#    ok 4 - !FILE_EXIST=etc/nonexistent
+#    ok 5 - !FILE_EXIST=etc/exists
+#    ok 6 - !PKG_EXIST=dummy2
+#    ok 7 - !LINK_EXIST=etc/brokenlink2
+#    ok 8 - !FILE_EXIST=etc/nonexistent2
+#    ok 9 - !FILE_EXIST=etc/exists2
+#    ok 10 - PKG_EXIST=dummy3
+#    ok 11 - LINK_EXIST=etc/brokenlink3
+#    ok 12 - !FILE_EXIST=etc/nonexistent3
+#    ok 13 - FILE_EXIST=etc/exists3
+#    ok 14 - FILE_TYPE=etc/brokenlink3|link
+#    ok 15 - FILE_TYPE=etc/exists3|file
+ok 1 - Dead backed-up symlink when removing package (FS#24230)
+PASS: test/pacman/tests/symlink002.py 1 - Dead backed-up symlink when removing package (FS#24230)

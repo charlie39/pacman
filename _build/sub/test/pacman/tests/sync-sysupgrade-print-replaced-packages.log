@@ -1,0 +1,10 @@
+1..1
+# Running 'sync-sysupgrade-print-replaced-packages'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PACMAN_OUTPUT=b-2-2
+ok 1 - Print replacements when using -Sup
+PASS: test/pacman/tests/sync-sysupgrade-print-replaced-packages.py 1 - Print replacements when using -Sup

@@ -1,0 +1,18 @@
+1..1
+# Running 'upgrade005'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..10
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=pkg1
+#    ok 3 - FILE_EXIST=bin/pkg1
+#    ok 4 - FILE_EXIST=usr/man/man1/pkg1.1
+#    ok 5 - PKG_EXIST=pkg2
+#    ok 6 - FILE_EXIST=bin/pkg2
+#    ok 7 - FILE_EXIST=usr/man/man1/pkg2.1
+#    ok 8 - PKG_EXIST=pkg3
+#    ok 9 - FILE_EXIST=bin/pkg3
+#    ok 10 - FILE_EXIST=usr/man/man1/pkg3.1
+ok 1 - Install a set of three packages
+PASS: test/pacman/tests/upgrade005.py 1 - Install a set of three packages

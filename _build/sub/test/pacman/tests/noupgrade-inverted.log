@@ -1,0 +1,13 @@
+1..1
+# Running 'noupgrade-inverted'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..5
+#    ok 1 - PKG_VERSION=foobar|1.0-2
+#    ok 2 - !FILE_EXIST=foo/baz
+#    ok 3 - FILE_MODIFIED=foo/bar
+#    ok 4 - !FILE_PACNEW=foo/bar
+#    ok 5 - !FILE_PACSAVE=foo/bar
+ok 1 - Upgrade a package with files that match negated NoUpgrade patterns
+PASS: test/pacman/tests/noupgrade-inverted.py 1 - Upgrade a package with files that match negated NoUpgrade patterns

@@ -1,0 +1,10 @@
+1..1
+# Running 'epoch012'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=usbutils|1:002-1
+ok 1 - usbutils case study: maintainer screws up and removes force
+PASS: test/pacman/tests/epoch012.py 1 - usbutils case study: maintainer screws up and removes force

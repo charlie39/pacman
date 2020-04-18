@@ -1,0 +1,13 @@
+1..1
+# Running 'sync405'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..5
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=kdelibs
+#    ok 3 - PKG_EXIST=qt
+#    ok 4 - PKG_EXIST=phonon
+#    ok 5 - PKG_VERSION=qt|4.6.1-1
+ok 1 - phonon/qt issue
+PASS: test/pacman/tests/sync405.py 1 - phonon/qt issue

@@ -1,0 +1,11 @@
+1..1
+# Running 'sync1104'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..3
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=old
+#    ok 3 - PKG_EXIST=new
+ok 1 - Don't update (reinstall) a replaced package
+PASS: test/pacman/tests/sync1104.py 1 - Don't update (reinstall) a replaced package

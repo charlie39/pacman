@@ -1,0 +1,9 @@
+1..1
+# Running 'sync200'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..1
+#    ok 1 - PACMAN_RETCODE=0
+ok 1 - Synchronize the local database
+PASS: test/pacman/tests/sync200.py 1 - Synchronize the local database

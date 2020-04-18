@@ -1,0 +1,13 @@
+1..1
+# Running 'sync404'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..5
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_EXIST=xorg-server
+#    ok 3 - PKG_EXIST=nvidia
+#    ok 4 - PKG_EXIST=nvidia-utils
+#    ok 5 - !PKG_EXIST=libgl
+ok 1 - FS#9024
+PASS: test/pacman/tests/sync404.py 1 - FS#9024

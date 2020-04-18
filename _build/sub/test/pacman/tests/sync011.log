@@ -1,0 +1,12 @@
+1..1
+# Running 'sync011'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..4
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=dummy|1.0-2
+#    ok 3 - PKG_EXIST=dep1
+#    ok 4 - PKG_EXIST=dep2
+ok 1 - Install a package from a sync db with cascaded dependencies + provides
+PASS: test/pacman/tests/sync011.py 1 - Install a package from a sync db with cascaded dependencies + provides

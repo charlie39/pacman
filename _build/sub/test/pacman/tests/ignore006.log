@@ -1,0 +1,10 @@
+1..1
+# Running 'ignore006'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..2
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - !PKG_EXIST=package1
+ok 1 - Sync with target in ignore list and say no
+PASS: test/pacman/tests/ignore006.py 1 - Sync with target in ignore list and say no

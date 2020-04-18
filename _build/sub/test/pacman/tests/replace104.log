@@ -1,0 +1,14 @@
+1..1
+# Running 'replace104'
+# ==> Generating test environment
+# ==> Running test
+# ==> Checking rules
+#    1..6
+#    ok 1 - PACMAN_RETCODE=0
+#    ok 2 - PKG_VERSION=common-dep|1.1-1
+#    ok 3 - !PKG_EXIST=notsplit
+#    ok 4 - PKG_VERSION=split0|2.0-1
+#    ok 5 - PKG_VERSION=split1|2.0-1
+#    ok 6 - PKG_VERSION=split2|2.0-1
+ok 1 - Sysupgrade with multiple replaces
+PASS: test/pacman/tests/replace104.py 1 - Sysupgrade with multiple replaces
